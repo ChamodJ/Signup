@@ -9,4 +9,24 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationServelet</display-name>
+    <servlet-name>RegistrationServelet</servlet-name>
+    <servlet-class>registration.RegistrationServelet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationServelet</servlet-name>
+    <url-pattern>/RegistrationServelet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>RegistrationServlet</display-name>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <servlet-class>registration.RegistrationServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RegistrationServlet</servlet-name>
+    <url-pattern>/RegistrationServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
